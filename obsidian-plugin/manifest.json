@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-encrypted-refs",
+	"name": "Encrypted References",
+	"version": "1.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Manage transparently encrypted references in your notes",
+	"author": "",
+	"authorUrl": "",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}

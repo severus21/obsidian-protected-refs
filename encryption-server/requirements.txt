@@ -1,0 +1,4 @@
+falcon>=3.*
+uvicorn
+colorlog
+cryptography
