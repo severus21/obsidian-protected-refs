@@ -1,12 +1,4 @@
-import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, RequestUrlParam} from 'obsidian';
-//import request from 'request';
-
-import { MarkdownView, MarkdownRenderer } from 'obsidian';
-
-
-
-  
-  
+import {App, MarkdownPostProcessorContext, Plugin, PluginSettingTab, Setting} from 'obsidian';
 
 // Remember to rename these classes and interfaces!
 
@@ -55,7 +47,7 @@ export default class MyPlugin extends Plugin {
 
 		for (let index = 0; index < protected_spans.length; index++) {
 			const protected_span = protected_spans.item(index);
-			const text = protected_span.innerText.trim();
+			const text = protected_span.getText().trim();
 			//alert(text);
 
 			// Make the POST request			
