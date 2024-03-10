@@ -1,0 +1,1 @@
+- [ ] HTTP -> HTTPS (Ask JD for help) + change the crypto
